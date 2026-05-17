@@ -1,4 +1,4 @@
-# 🎬 V2 – Premium Movie Streaming Website
+# 🎬 V4 – Premium Movie Streaming Website
 
 A full-featured, Netflix-style movie streaming website built with PHP + vanilla JS.
 Uses TMDB API proxied server-side so **your API key is never exposed in the browser**.

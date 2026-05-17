@@ -1,14 +1,6 @@
 services:
   - type: web
-    name: playflix
-    env: php
-    buildCommand: ""
-    startCommand: php -S 0.0.0.0:$PORT -t /var/www/html
+    name: v4-streaming
+    env: docker
     plan: free
-    envVars:
-      - key: PHP_VERSION
-        value: "8.2"
-    disk:
-      name: playflix-data
-      mountPath: /var/www/html
-      sizeGB: 1
+    dockerfilePath: ./Dockerfile
