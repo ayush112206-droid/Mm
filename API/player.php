@@ -1,6 +1,6 @@
 <?php
 /**
- * V2 – Secure Video URL Builder
+ * V4 – Secure Video URL Builder
  * Generates embed URLs server-side. Video server list never exposed in JS.
  */
 require_once dirname(__DIR__) . '/includes/config.php';

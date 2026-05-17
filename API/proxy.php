@@ -1,6 +1,6 @@
 <?php
 /**
- * V2 – Secure TMDB API Proxy
+ * V4 – Secure TMDB API Proxy
  * ─────────────────────────────────
  * All TMDB requests go through here server-side.
  * The API key is NEVER sent to the browser or visible in network tabs.
