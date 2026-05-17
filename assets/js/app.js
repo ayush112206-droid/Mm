@@ -1,5 +1,5 @@
 /**
- * V2 v3.0 – Main Application JavaScript
+ * V4 v3.0 – Main Application JavaScript
  * All TMDB calls go through /api/proxy.php — API key never exposed to browser.
  */
 'use strict';
@@ -67,9 +67,9 @@ const Utils = {
   img(path, size='W500') { return path ? CFG[size]+path : '/assets/img/no-poster.svg'; },
   copyLink() { navigator.clipboard.writeText(window.location.href); Utils.toast('Link copied!','info'); },
   share(p) {
-    const title = State.activeData ? (State.activeData.title||State.activeData.name) : 'V2';
+    const title = State.activeData ? (State.activeData.title||State.activeData.name) : 'V4';
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent(`Watch "${title}" on V2! `);
+    const text = encodeURIComponent(`Watch "${title}" on V4! `);
     const link = p==='twitter'
       ? `https://twitter.com/intent/tweet?text=${text}&url=${url}`
       : `https://api.whatsapp.com/send?text=${text}${url}`;
