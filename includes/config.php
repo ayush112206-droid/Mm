@@ -1,6 +1,6 @@
 <?php
 /**
- * V2 Configuration
+ * V4 Configuration
  * API key is stored SERVER-SIDE ONLY — never exposed to browser/network.
  */
 
@@ -8,7 +8,7 @@ define('TMDB_API_KEY', '05902896074695709d7763505bb88b4d');
 define('TMDB_BASE',    'https://api.themoviedb.org/3');
 define('TMDB_W500',    'https://image.tmdb.org/t/p/w500');
 define('TMDB_ORIG',    'https://image.tmdb.org/t/p/original');
-define('SITE_NAME',    'V2');
+define('SITE_NAME',    'V4');
 define('SITE_TAGLINE', 'Stream Movies & TV Shows Free');
 define('SITE_URL',     '');  // Leave blank for relative URLs
 
